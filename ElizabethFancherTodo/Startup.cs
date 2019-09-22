@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using ElizabethFancherTodo.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ElizabethFancherTodo.Services;
 
 namespace ElizabethFancherTodo
 {
@@ -28,6 +29,7 @@ namespace ElizabethFancherTodo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IElizabethFancherTodoItemService, FakeTodoItemService>();
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
