@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elizabeth\\OneDrive\\Documents\\GitHub\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj": {}
+    "C:\\Users\\Elizabeth\\onedrive\\documents\\github\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elizabeth\\OneDrive\\Documents\\GitHub\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj": {
+    "C:\\Users\\Elizabeth\\onedrive\\documents\\github\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elizabeth\\OneDrive\\Documents\\GitHub\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj",
+        "projectUniqueName": "C:\\Users\\Elizabeth\\onedrive\\documents\\github\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj",
         "projectName": "ElizabethFancherTodo",
-        "projectPath": "C:\\Users\\Elizabeth\\OneDrive\\Documents\\GitHub\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj",
+        "projectPath": "C:\\Users\\Elizabeth\\onedrive\\documents\\github\\ElizabethFancherTodo\\ElizabethFancherTodo\\ElizabethFancherTodo.csproj",
         "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elizabeth\\OneDrive\\Documents\\GitHub\\ElizabethFancherTodo\\ElizabethFancherTodo\\obj\\",
+        "outputPath": "C:\\Users\\Elizabeth\\onedrive\\documents\\github\\ElizabethFancherTodo\\ElizabethFancherTodo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             },
             "jQuery.UI.Combined": {
               "target": "Package",

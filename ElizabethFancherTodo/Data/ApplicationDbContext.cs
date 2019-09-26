@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ElizabethFancherTodo.Models;
 
 namespace ElizabethFancherTodo.Data
 {
@@ -12,5 +13,11 @@ namespace ElizabethFancherTodo.Data
             : base(options)
         {
         }
+        public DbSet<TodoItem> Items { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            // ...
+        }
     }
 }

@@ -9,5 +9,7 @@ namespace ElizabethFancherTodo.Services
     public interface IElizabethFancherTodoItemService
     {
         Task<TodoItem[]> GetIncompleteItemsAsync();
-    }
+        Task<bool> AddItemAsync(TodoItem newItem);        Task<bool> MarkDoneAsync(Guid id);
+    }
+
 }

@@ -32,3 +32,4 @@ C:\Users\Elizabeth\onedrive\documents\github\ElizabethFancherTodo\ElizabethFanch
 C:\Users\Elizabeth\onedrive\documents\github\ElizabethFancherTodo\ElizabethFancherTodo\obj\Debug\netcoreapp2.2\ElizabethFancherTodo.pdb
 C:\Users\Elizabeth\onedrive\documents\github\ElizabethFancherTodo\ElizabethFancherTodo\obj\Debug\netcoreapp2.2\ElizabethFancherTodo.csproj.CopyComplete
 C:\Users\Elizabeth\onedrive\documents\github\ElizabethFancherTodo\ElizabethFancherTodo\obj\Debug\netcoreapp2.2\Razor\Views\ElizabethFancherTodo\Index.g.cshtml.cs
+C:\Users\Elizabeth\onedrive\documents\github\ElizabethFancherTodo\ElizabethFancherTodo\obj\Debug\netcoreapp2.2\Razor\Views\ElizabethFancherTodo\AddItemPartial.g.cshtml.cs
